@@ -1,0 +1,17 @@
+html, body {
+    height: 100%;
+    background-color: grey;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+.todo-list{
+    grid-template-columns: auto;
+}
